@@ -1,24 +1,31 @@
 {
-  "name": "cortex-dashboard",
-  "version": "0.1.0",
-  "description": "Dashboard of cortex.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/kaelzhang/cortex-dashboard.git"
-  },
-  "author": "Kael",
-  "license": "MIT",
-  "readmeFilename": "README.md",
-  "bugs": {
-    "url": "https://github.com/kaelzhang/cortex-dashboard/issues"
-  },
-
-  "dependencies": {},
-  "bin": {
-    "cortex-dashboard": "bin/cortex-dashboard.js"
-  }
+    "name": "cortex-dashboard",
+    "version": "0.1.0",
+    "description": "Dashboard of cortex.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/kaelzhang/cortex-dashboard.git"
+    },
+    "author": "Kael",
+    "license": "MIT",
+    "readmeFilename": "README.md",
+    "bugs": {
+        "url": "https://github.com/kaelzhang/cortex-dashboard/issues"
+    },
+    "dependencies": {},
+    "bin": {
+        "cortex-dashboard": "bin/cortex-dashboard.js"
+    },
+    "cortex": {
+        "dependencies": {
+            "jquery": "~1.9.2"
+        },
+        "exactDependencies": {
+            "jquery": "1.9.2"
+        }
+    }
 }
