@@ -15,5 +15,10 @@
   "readmeFilename": "README.md",
   "bugs": {
     "url": "https://github.com/kaelzhang/cortex-dashboard/issues"
+  },
+
+  "dependencies": {},
+  "bin": {
+    "cortex-dashboard": "bin/cortex-dashboard.js"
   }
 }

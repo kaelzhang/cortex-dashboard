@@ -1,3 +1,3 @@
 # Cortex-dashboard
 
-Dashboard of [cortex](https://github.com/kaelzhang/cortex).
+GUI dashboard to play with [Cortex](https://github.com/kaelzhang/cortex).
